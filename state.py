@@ -1,7 +1,7 @@
-from abc import abstractmethod
+from abc import ABCMeta, abstractmethod
 
 
-class Estado:
+class Estado(metaclass=ABCMeta):
 
     @abstractmethod
     def avanca(self, fabrica):
