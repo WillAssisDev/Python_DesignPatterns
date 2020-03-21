@@ -1,7 +1,7 @@
-from abc import abstractmethod
+from abc import ABCMeta, abstractmethod
 
 
-class Template:
+class Template(metaclass=ABCMeta):
 
     def funcao(self, parametro1):
         if self.verificacao(parametro1):
