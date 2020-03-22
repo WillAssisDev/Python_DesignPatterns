@@ -11,6 +11,7 @@ class Estrategia2:
         if parametro1:
             print('Estratégia 2')
 
+
 class Estrategia3:
 
     def funcao(self, parametro1):
